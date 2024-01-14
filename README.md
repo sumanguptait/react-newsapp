@@ -8,8 +8,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To use the News API in this project, you'll need to obtain an API key. Follow these steps:
 
-## Create a News API
-
 1. **Create a News API Account:**
 
    - Go to [News API website](https://newsapi.org/) and create an account.
