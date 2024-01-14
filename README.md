@@ -2,6 +2,41 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project Name
+
+## News API Key Setup
+
+To use the News API in this project, you'll need to obtain an API key. Follow these steps:
+
+## Create a News API
+
+1. **Create a News API Account:**
+
+   - Go to [News API website](https://newsapi.org/) and create an account.
+
+2. **Obtain API Key:**
+
+   - Log in to your News API account.
+   - Navigate to the "API Keys" section or a similar area in your dashboard.
+   - Generate a new API key.
+
+3. **Add API Key to Your Project:**
+
+   - Open the `config.js` file (or another relevant file) in your project.
+   - Replace the placeholder `YOUR_API_KEY` with the actual API key you obtained.
+
+4. **Security Considerations:**
+
+   - Keep your API key secure. Avoid exposing it in public repositories.
+   - Consider using environment variables or a secure configuration method to store and access the API key.
+
+5. **Example Code:**
+   ```javascript
+   // config.js
+   const API_KEY = "YOUR_API_KEY";
+   export default API_KEY;
+   ```
+
 ## Available Scripts
 
 In the project directory, you can run:
